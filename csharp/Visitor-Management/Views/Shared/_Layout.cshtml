@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <title>Visitor Management Sysytem</title>
 
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
@@ -20,10 +20,10 @@
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li class="nav-item">@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li class="nav-item">@Html.ActionLink("Records", "Index", "Records")</li>
                     <li class="nav-item">@Html.ActionLink("Apartments", "Index", "Apartments")</li>
                     <li class="nav-item">@Html.ActionLink("Tenants", "Index", "Tenants")</li>
                     <li class="nav-item">@Html.ActionLink("Visitors", "Index", "Visitors")</li>
+                    <li class="nav-item">@Html.ActionLink("Records", "Index", "Records")</li>
                 </ul>
             </div>
         </div>
@@ -36,12 +36,11 @@
             <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav mr-auto">
 
-                    <li class="nav-item">
-                        @Html.ActionLink("Home", "Index", "Home")
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
-                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#">@Html.ActionLink("Home", "Index", "Home")</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">@Html.ActionLink("Apartments", "Index", "Apartments")</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">@Html.ActionLink("Tenants", "Index", "Tenants")</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">@Html.ActionLink("Visitors", "Index", "Visitors")</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">@Html.ActionLink("Records", "Index", "Records")</a></li>
                 </ul>
                 
             </div>

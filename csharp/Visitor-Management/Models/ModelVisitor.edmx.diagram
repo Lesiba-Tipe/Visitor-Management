@@ -6,9 +6,9 @@
     <edmx:Diagrams>
       <Diagram DiagramId="00f60757bec2454386e68b31efa62092" Name="Diagram1">
         <EntityTypeShape EntityType="ModelVisitor.Apartment" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
-        <EntityTypeShape EntityType="ModelVisitor.Record" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
-        <EntityTypeShape EntityType="ModelVisitor.Tenant" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
-        <EntityTypeShape EntityType="ModelVisitor.Visitor" Width="1.5" PointX="3.25" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelVisitor.Record" Width="1.5" PointX="6.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelVisitor.Tenant" Width="1.5" PointX="3.625" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelVisitor.Visitor" Width="1.5" PointX="4.375" PointY="4.375" IsExpanded="true" />
         <AssociationConnector Association="ModelVisitor.FK__Tenant__Apartmen__3A81B327" ManuallyRouted="false" />
         <AssociationConnector Association="ModelVisitor.FK__Record__TenantID__3D5E1FD2" ManuallyRouted="false" />
         <AssociationConnector Association="ModelVisitor.FK__Record__VisitorI__3E52440B" ManuallyRouted="false" />
