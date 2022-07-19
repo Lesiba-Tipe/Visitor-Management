@@ -31,3 +31,10 @@ textarea {
     justify-content: space-evenly;
     
 }
+
+.nav-item {
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+    background-color: #94b1e0;
+}
